@@ -1,0 +1,42 @@
+package aiml;
+import java.util.*;
+
+
+public class Code {
+	public static void main (String[] args) {
+		Scanner sc =new Scanner(System.in);{
+			
+			Random random =new Random();
+			int r=random.nextInt(100);
+			for(int i=1;i<=5;i++)
+			{
+				System.out.println("enter number");
+				int rand=sc.nextInt();
+				if(r>rand)
+				{
+					System.out.println("low");
+				}
+				else if(r<rand) 
+				{
+					System.out.println("high");
+				}
+				else
+				{
+					System.out.println("correct");
+					break;
+				}
+				
+			}
+			
+			System.out.println("Number is "+r);
+		
+
+
+			
+			
+	
+	
+	
+		}
+	}
+}
